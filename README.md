@@ -1,12 +1,12 @@
 # Restaurant Mobile Application 
- Name: Muhammad Ahmed Raza
- Reg No: 9605 
- Assignment No: 01
- Submitted to: Dr.Sadaf Tanvir
- Date: 27th-September-2026
+
+**Name:** Muhammad Ahmed Raza  
+**Reg No:** 9605  
+**Assignment No:** 01  
+**Submitted to:** Dr. Sadaf Tanvir  
+**Date:** 27th-September-2026
 
 Frontend-only React Native / Expo prototype for Fall 2026.
-
 ## Demo accounts
 Customer:
 - Email: ahmed@gmail.com
