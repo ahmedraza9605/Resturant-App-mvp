@@ -1,33 +1,31 @@
-# Restaurant Mobile Application 
+# Restaurant Mobile Application
 
-**Name:** Muhammad Ahmed Raza  
-**Reg No:** 9605  
-**Assignment No:** 01  
-**Submitted to:** Dr. Sadaf Tanvir  
-**Date:** 27th-September-2026
+**Name:** Muhammad Ahmed Raza | **Reg No:** 9605 | **Assignment No:** 01
+**Submitted to:** Dr. Sadaf Tanvir | **Date:** 27-Sep-2026
 
-Frontend-only React Native / Expo prototype for Fall 2026.
-## Demo accounts
-Customer:
-- Email: ahmed@gmail.com
-- Password: Ahmed123
+Frontend-only React Native / Expo prototype (Fall 2026). No backend, API, or state library — uses mock data + AsyncStorage.
 
-Manager:
-- Email: manager@gmail.com
-- Password: Manager123
+## Demo Accounts
+- Customer: `ahmed@gmail.com` / `Ahmed123`
+- Manager: `manager@gmail.com` / `Manager123`
 
 ## Run
+```bash
 npm install
 npx expo start
+```
+Scan the QR with Expo Go, or press `a` / `i` for an Android/iOS emulator.
 
-The project uses mock/local data and AsyncStorage. No backend or external API is required.
+## Hooks Used
+| Hook | Where |
+|---|---|
+| useState | Forms, UI state |
+| useEffect | Loading, timers, persistence |
+| useRef | Search input/list, render counter |
+| useContext | Auth, theme, cart |
+| useReducer | Cart, orders |
+| useMemo | Filtering/sorting, order totals |
+| useCallback / React.memo | Menu handlers/cards |
+| Custom hooks | useForm, useDebounce, useReservation |
 
-## Main hooks
-useState: forms and UI state
-useEffect: loading, timers and persistence
-useRef: search input/list and render counter
-useContext: authentication, theme and cart
-useReducer: cart and orders
-useMemo: filtering/sorting and order totals
-useCallback/React.memo: can be added around stable menu handlers/cards
-Custom hooks: useForm, useDebounce, useReservation
+_
