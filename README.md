@@ -1,7 +1,10 @@
 # Restaurant Mobile Application
 
-**Name:** Muhammad Ahmed Raza | **Reg No:** 9605 | **Assignment No:** 01
-**Submitted to:** Dr. Sadaf Tanvir | **Date:** 27-Sep-2026
+**Name:** Muhammad Ahmed Raza 
+**Reg No:** 9605 
+**Assignment No:** 01
+**Submitted to:** Dr. Sadaf Tanvir
+**Date:** 27-Sep-2026
 
 Frontend-only React Native / Expo prototype (Fall 2026). No backend, API, or state library — uses mock data + AsyncStorage.
 
